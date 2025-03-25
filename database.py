@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import mysql.connector
 
-load_dotenv(dotenv_path='../backend/.env')
+load_dotenv(dotenv_path='.env')
 
 db_config = {
     'host': os.getenv('host'),
